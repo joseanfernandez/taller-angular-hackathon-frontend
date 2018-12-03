@@ -1,0 +1,6 @@
+<div class="container">
+  <input #input type="text" [value]="text" (keyup)="update(input.value)">
+  <p class="ml">Text: {{ text }}</p>
+  <p class="ml">Uppercase: {{ text | uppercase }}</p>
+  <p class="ml">Lowercase: {{ text | lowercase }}</p>
+</div>

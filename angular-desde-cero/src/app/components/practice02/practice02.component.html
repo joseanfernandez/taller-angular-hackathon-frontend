@@ -1,0 +1,5 @@
+<div class="container">
+  <input #input type="text" [value]="text">
+  <button (click)="update(input.value)">Update</button>
+  <span class="ml">{{text}}</span>
+</div>

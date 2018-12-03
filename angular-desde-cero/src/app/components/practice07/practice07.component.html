@@ -1,0 +1,6 @@
+<div class="container">
+  <div *ngFor="let n of numbers" (click)="key(n)" class="number-box">{{n}}</div>
+  <div class="display">{{password}}</div>
+  <button (click)="check()">Send</button>
+  <p>{{message}}</p>
+</div>

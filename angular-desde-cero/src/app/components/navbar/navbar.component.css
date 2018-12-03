@@ -1,0 +1,23 @@
+.nav {
+  background-color: #323232;
+  height: 80px;
+  width: 100%;
+}
+
+.nav div:hover {
+  cursor: pointer;
+}
+.nav div:first-of-type {
+  color: #E0002A;
+  font-size: 55px;
+  line-height: 87px;
+  padding-left: 20px;
+  float: left;
+}
+
+.nav div:nth-child(2) {
+  font-size: 35px;
+  line-height: 80px;
+  color: #FAFAFA;
+  float: left;
+}

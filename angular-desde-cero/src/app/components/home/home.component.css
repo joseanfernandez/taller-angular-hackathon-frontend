@@ -1,0 +1,48 @@
+.box {
+  margin-top: 50px;
+  display: flex;  
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;                  
+}
+
+.item {
+  background: linear-gradient(-45deg, #CA7694, #3D999C, #6CB165, #E7B84C);
+  background-size: 400% 400%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  width: 250px;
+  margin-bottom: 20px;
+  transition: all 1s;
+  animation: itemAnimation 10s ease infinite;
+  color: #FAFAFA;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.item:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px #006ECC inset;
+  background-color: #FAFAFA;
+}
+
+.item:active {
+  border-color: #E0002A;
+  box-shadow: 0px 0px 2px #888 inset;
+}
+
+@keyframes itemAnimation {
+	0% {
+    background-position: 0% 50%;
+    color: #323232;
+	}
+	50% {
+    background-position: 100% 50%;
+    color: #FAFAFA;
+	}
+	100% {
+    background-position: 0% 50%;
+    color: #323232;
+  }
+}

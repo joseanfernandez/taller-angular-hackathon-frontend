@@ -1,0 +1,8 @@
+<div class="container">
+  <h3>NgModel Directive</h3>
+  <input [(ngModel)]="text" type="text">
+  <button (click)="add()">+</button>
+  <ul>
+    <li *ngFor="let color of colors;">{{color}}</li>
+  </ul>
+</div>
